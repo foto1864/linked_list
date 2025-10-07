@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "linked_list.h"
 
+
 typedef struct list_node {
     int value;
     struct list_node* next;

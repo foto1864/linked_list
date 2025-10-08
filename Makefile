@@ -23,7 +23,7 @@ run:
 	./$(EXEC)
 
 valgrind:
-	./$(EXEC)
+	valgrind ./$(EXEC)
 
 clean:
 	rm -f $(OBJ) $(EXEC)
